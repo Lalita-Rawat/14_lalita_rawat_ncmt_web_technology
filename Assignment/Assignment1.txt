@@ -1,1 +1,89 @@
+Group A: Short Questions
+1. Define the term ”Protocol” in the context of the Internet.
+ANSWER:A "Protocol" in the context of Internet is a networking standard that governs how data packets are addressed, transmitted and delivered across interconnected networks.
+
+2. What is the primary difference between a Web Browser and a Search Engine?
+ANSWER:A Web Browser is a piece of software that receives and display web pages.
+       A Search Engine is a website that helps people find web pages from other websites.
+
+3. Define the World Wide Web (WWW).
+ANSWER: The World Wide Web also known as web refers to all the public websites or pages that users can access on their local computers and other devices through the internet.
+
+4. Distinguish between a static web page and a dynamic web page.
+ANSWER: In static web pages, Pages will remain same until someone changes it manually.
+       A dynamic web page is a web page that includes content that is updated regularly.
+
+Group B: Long Questions (4 Marks)
+5. Explain the client-server architecture of the web with a neat diagram.
+
+ANSWER: Client-server architecture is a computing model that divides tasks between service providers, called SERVERS, and service requesters, called CLIENTS.This model is designed to improve the efficiency and management of resources by centralizing server function, which handle the processing and management of data, whiile clients interact with the user and request services from the server.
+The client-server architecture model consists of two main components: 
+-Clients: The client is a computer or software application that initiates requests to the server. Clients are typically user-facing and provide the interface through which users interact with the server.
+Example: Web browsers, email clients and mobile apps.
+-Servers:The server is a computer or software application that provies services to clients over a network. Servers host,manage and deliver resources such as data, applications and compuitng power.
+Example:Web servers,database servers and file servers.
+
+
+6. Describe the functions of the following Internet services: Email, FTP, and VoIP.
+
+ANSWER: We need Intenet services to access/exchange a large amount of data such as software, audio clips, text file , etc. 
+-E-Mail: It is used to send electronic mail via the inetrnet. It is a paperpless method for sending text, images, documents, videos, etc from one person to another via the internet.It allows communication with people all over the world without bothering them. 
+Email operated across computer network, primirily the Internet, and also local area networks.
+
+-FTP:File Transfer Protocol is used to share, transfer, or send a file or logical data item across severaal users and/or machines, both locally and remotely. FTP is designed specifically for file handling, unlike protocol such as HTTP that primarily deliver web pages. It purpose-build architecture makes it reliable and efficient for moving text files, binary files, and other data types across networks.
+
+-VoIP: It stand for Voice over Internet Protocol, which describes how to make and recieve phone calls over the internet. A larger number of people believe VoIP is a viable alternative to traditional landlines. VoIP is a technique that helps us make voice calls via the Internet rather than over a traditional phone line.
+Some VoIP services may let you call only other VoIP users, while others may let you call anyone with a phone number.
+
+7. ”The Internet is a network of networks.” Elaborate on this statement explaining how packet switching works.
+
+ANSWER:The Internet is a network of networks. The essential principle enabling its growth is packet switching, where data is divided into smaller packets for transmission across the network and reassembled at the destination.
+The Evolution of Internet:
+Early networks like ARPANET used protocols unique to their systems, hindering communication with other networks.
+Researchers Vint Cerf and Bob Kahn proposed a new method: Transfer Control Protocol/Internetwork Protocol (TCP/IP).
+TCP/IP split data into standardized packets, enabling communication among different computers and networks.
+On January 1, 1983, ARPANET and the Defense Data Network switched to TCP/IP, creating the modern Internet.
+Further advancements made the network open to universities, companies, and eventually the general public.
+
+Packet Switching is a method of sending data in small units called packets, each containing a header and payload. Packets travel independently using the Store-and-Forward technique, possibly via different paths, and are reassembled at the destination. No dedicated path or resource reservation is needed, making data transfer efficient and flexible.
+
+Group C: Scenario-Based Questions (5 Marks)
+8. A startup company wants to host a website that displays the same information to allvisitors and requires very low maintenance costs. However, they are being advised to use a dynamic website. As a consultant, would you agree? Justify your answer.
+
+ANSWER: As a consultant, I would  disagree with the advice to use a dynamic website for the begginers. The startup's requirement displaying the same information to all visitors and requiring very low maintenance costs can be done by static website.
+
+-Static Website: A static website displays the same content to all visitors, making it the simplest type to build. It only updates when you manually edit the pages. For businesses with limited content needs, static sites can be cost-effective and easy to maintain, providing a straightforward online presence.
+-Dynamic Website:Dynamic websites are always changing. Pages have interactive elements and update in real-time to provide a custom experience for each client browser. For example, accessing a weather website in Miami will generate a different temperature than if you were in Eugene, Oregon.
+
+Justifictaion for a static website
+-Errors are easier to troubleshoot: Mistakes on static websites are generally spelling and formatting errors and broken links, which you can identify by proofreading the published web page and fix by editing the pages.
+-Shorter development time: Static website development doesn’t require technical expertise. You select a template or edit a CSS for the look and feel, then write and format the content using a website builder application.
+-More affordable: Since you can plug in text and images and develop a static page fairly easily, you’re unlikely to need to hire an expensive web developer with programming knowledge. Whereas The dynamic website cost more to build and maintain other than developers and designers you also need to pay more for robust web hosting features and regular audits.
+-Better performance: A web server delivers a web page to the browser, and that’s it. Text and images transfer quickly (unless the images aren’t optimized for the web), so with no other background processes running, the website speed is likely to be fast.
+
+9. A user types www.google.com into their browser, but the browser displays a ”Server Not Found” error, even though the internet connection is active. However, accessing the site via 142.250.190.46 works. Diagnose the problem and explain the underlying technology that failed.
+
+ANSWER:The user is facing a DNS(Domain Name System) failure. The problem is that while their internet connection is active and the Google server is reachable via its IP address, the browser is unable to translate the human readable domain name like(www.google.com) into that numerical IP address(142.250.190.46)
+The Server Not Found error indicates that the browser could not find this numerical IP address for the requested domain name.
+How DNS works:
+-Request Initiation: You type www.google.com into your browse.
+-Resolver Query: Your browser sends a query to a local DNS resolver(usually managed by your Internet Service Provider or ISP).
+-Recurive Search: The resolver queries varois authoritative DNS servers across the internet  until it finds the specific IP address associated with that domain name.
+-IP address Return: The resolver return the correct IP address(142.250.190.46) to your browser.
+-Connection: Your browser uses that IP address to connect directly to Google’s server and load the webpage.
+In this scenario, the failure happened during the resolution process. The device’s DNS could not successfully look up or provide the IP address for www.google.com. This could be due to several common issues:
+-Local DNS Cache Issues: A temporary error in yoour computer’s stored DNS records.
+-Router Problems: Your router’s DNS settings might be misconfigured.
+-ISP Outages/Error: Your ISP’s servers might be down or experience issues.
+-Firewall/Security settings: local security software might be blocking DNS requests.
+
+10. A multinational corporation wants to share sensitive invetory data with specific suppliersbut does not want this information available to the general public. Explain which network type (Intranet, Extranet, or Internet) they should implement and why.
+
+ANSWER:An Extranet is preferred over the internet and intranet as it is a private network that extends the orgainzation’s internal network to specific external users like customers or partners. While both use similar technologies extranets have addes security measures to protect senstive data and enable the secure collaboration between the businesses and their external stakeholders.
+Benefits of Extranet
+-Secure Collaboration With External Partners: An Extranet allows organizations to share specific information and resources with authorized external parties. This secure environment facilitates collaboration with suppliers, clients, and partners while maintaining control over sensitive data.
+-Improved Supply Chain Management: Extranets enable real-time information sharing between businesses and their suppliers. This streamlines inventory management, order processing, and logistics, leading to more efficient supply chain operations.
+-Enhanced Customer Service: By providing customers with access to personalized portals, companies can offer self-service options and timely support. This improves customer satisfaction and reduces the workload on internal support teams.
+-Cost-Effective Communication: Extranets reduce communication costs by replacing traditional methods like phone calls and physical mail. They also minimize the need for in-person meetings, saving time and travel expenses for all parties involved.
+
 
