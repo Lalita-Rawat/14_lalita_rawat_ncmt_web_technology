@@ -98,20 +98,6 @@ For a University website with hundreds of pages, the Hierarchical (Tree) structu
 
 This type of website contains multiple categories such as Admissions, Departments, Alumni, Research, and News. A hierarchical structure helps organize this large amount of content logically.
 
-Rough Diagram:
-Home
- ├── Admissions
- │    ├── Undergraduate
- │    ├── Postgraduate
- │    └── Scholarships
- ├── Departments
- │    ├── Science
- │    ├── Arts
- │    └── Engineering
- ├── Alumni
- ├── News & Events
- └── Contact
-
 **Justification:**
 
 Easy navigation for students, staff, and visitors
